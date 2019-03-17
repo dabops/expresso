@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/dabops/expresso.svg?style=svg)](https://circleci.com/gh/dabops/expresso)
+
 # Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
