@@ -12,7 +12,7 @@ use Illuminate\Http\Request;
 class UserController extends Controller
 {
 	/**
-	 * Display a listing of the resource.
+	 * Display a collection of user.
 	 *
 	 * @return UserCollection
 	 */
@@ -22,7 +22,7 @@ class UserController extends Controller
     }
 
 	/**
-	 * Display a listing of the resource.
+	 * Store a new user and return a user resource.
 	 *
 	 * @param Request $request
 	 * @return UserCollection
@@ -42,7 +42,7 @@ class UserController extends Controller
 	}
 
 	/**
-	 * Update the specified resource in storage.
+	 * Update a user and return a user resource.
 	 *
 	 * @param Request $request
 	 * @param int $id
