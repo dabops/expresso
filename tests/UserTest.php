@@ -3,7 +3,7 @@
 class UserTest extends TestCase
 {
 	/**
-	 * A basic functional test example.
+	 * Test that a user can be created and stored into the database
 	 *
 	 * @return void
 	 */
@@ -17,7 +17,7 @@ class UserTest extends TestCase
 	}
 
 	/**
-	 * A basic functional test example.
+	 * Test that if the name of the user is to short, an error message occured
 	 *
 	 * @return void
 	 */
@@ -31,7 +31,7 @@ class UserTest extends TestCase
 	}
 
 	/**
-	 * A basic functional test example.
+	 * Get the users page and see if the user previously stored appear
 	 *
 	 * @return void
 	 */
