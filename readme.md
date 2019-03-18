@@ -1,23 +1,26 @@
 [![CircleCI](https://circleci.com/gh/dabops/expresso.svg?style=svg)](https://circleci.com/gh/dabops/expresso)
 
-# Lumen PHP Framework
+# Expresso
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
+> Your best admin of gamers that allow you to take coffes
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+## How to Play with it
 
-## Official Documentation
+### As application
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+``` bash
+# install dependencies
+$ composer install
 
-## Security Vulnerabilities
+# serve at localhost:8000
+$ php -S localhost:8000 -t public
+```
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+### As Docker
 
-## License
+``` bash
+# Build the Docker image
+$ docker build -t dabops/expresso .
 
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# Let's run the image in a container
+docker run -it -p 8080:80 --rm --name expresso dabops/expresso
